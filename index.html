@@ -1,0 +1,174 @@
+<!Doctype html>
+<html lang="es">
+<head>
+  <title> Estructura Semantica de HTML5 </title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	body{
+		background-color: #F0F0F0;
+	}
+	header{
+		font-family: 'Segoe UI Light', arial, sans-serif;
+		background-color: #F0F0F0;
+	}
+	h1{
+		color: #333;
+		font-size: 48px;
+		text-align: center;
+	}
+	nav ul{
+		text-align: center;
+		background-color: #333333;
+	}
+	nav ul li{
+		display: inline-block;
+		list-style: none;
+		font-size: 18px;
+		padding: 3px 4px;
+	}
+	nav ul li a{
+		text-decoration: none;
+		color: #CCCCCC;
+	}
+	nav ul li:hover, nav ul li a:hover{
+		background-color: #CCCCCC;
+		color: #333333;
+	}
+	#envoltura{
+		width: 100%;
+		vertical-align: top;
+	}
+	article, .barra_lateral{
+		vertical-align: top;
+		display: inline-block;
+	}
+	article{
+		background-color: #ffffff;
+		padding: 6px 6px;
+		width: 70%;
+	}
+	article h2{
+		font-size: 42px;
+		font-family: 'Segoe UI Light', arial, sans-serif;
+		text-align: center;
+	}
+	article p{
+		font-family: 'Segoe UI Light', arial, sans-serif;
+	}
+	.barra_lateral{
+		width: 28%;
+		font-family: 'Segoe UI Light', arial, sans-serif;
+	}
+	.barra_lateral h3{
+		font-size: 36px;
+	}
+	.barra_lateral ul li{
+		list-style: none;
+	}
+	.barra_lateral ul li a{
+		color: green;
+		text-decoration: none;
+	}
+	.barra_lateral ul li a:hover{
+		text-decoration: underline;
+	}
+	.footer{
+		margin-top: 6px;
+		background-color: #333333;
+		width: 100%;
+		color: #ffffff;
+	}
+	.footer .container{
+		width: 80%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		font-family: 'Segoe UI Light', arial, sans-serif;
+		padding: 8px 4px;
+	}
+	.footer .container a{
+		color: #e44e2d;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<hgroup>
+				<h1> Titulo Header </h1>
+			</hgroup>
+			<nav>
+				<ul>
+					<li><a href="#"> Inicio </a></li>
+					<li><a href="#"> Noticias </a></li>
+					<li><a href="#"> Cursos </a></li>
+					<li><a href="#"> contacto </a></li>
+					<li><a href="#"> Acerca de </a></li>
+				</ul>
+			</nav>
+		</header>
+		<div id="envoltura">
+			<section id="miSection">
+				<article> 
+					<hgroup>
+						<h2> Titulo del ARTICLE </h2>
+					</hgroup>
+					<p>
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					Ejemplo - Esto es Texto para el Article
+					|</p> 
+
+				</article>
+				<aside class="barra_lateral">
+					<hgroup>
+						<h3> Contenidos </h3>
+					</hgroup>
+					<ul>
+						<li><a href="#"> Articulo 1 texto de ejemplo </a></li>
+						<li><a href="#"> Articulo 2  texto de ejemplo </a></li>
+						<li><a href="#"> Articulo 3  texto de ejemplo</a></li>
+						<li><a href="#"> Articulo 4  texto de ejemplo  </a></li>
+						<li><a href="#"> Articulo 5 texto de ejemplo </a></li>
+						<li><a href="#"> Articulo 6  texto de ejemplo </a></li>
+					</ul>
+				</aside>
+			</section>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="container">
+			<p>Copyright &copy; 2013 <a href="http://www.foroexpertows.host22.com/" title="Pagina Oficial">ForoexpertoWS</a> - Programador: Michael Serrato | Correo: programador-experto97@hotmail.com | Canal en Youtube  <a href="http://www.youtube.com/ForoexpertoWS">/ForoexpertoWS</a> </p>
+		</div>
+	</footer>
+
+</body>
+</html>
